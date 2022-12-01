@@ -1,15 +1,15 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <indecision></indecision>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+import indecision from '@/components/indecision'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    indecision
   }
 }
 </script>
